@@ -15,52 +15,13 @@
 You are on a team for a company called Sandwich King! They plan on placing snack-machine style sandwich builders all around the city, and need an API for available ingredients to select from. Here is the original data set:
 
 ```js
-{
-  "bread": [
-    "white",
-    "wheat",
-    "sourdough",
-    "rye",
-    "multigrain"
-  ],
-
-  "meat": [
-    "turkey",
-    "ham",
-    "roast beef",
-    "chicken",
-    "bacon",
-    "salami"
-  ],
-
-  "cheese": [
-    "cheddar",
-    "swiss",
-    "provolone",
-    "mozzarella",
-    "pepper jack",
-    "Muenster"
-  ],
-
-  "veggies": [
-    "lettuce",
-    "tomato",
-    "onion",
-    "cucumber",
-    "bell pepper",
-    "spinach",
-    "avocado"
-  ],
-
-  "condiments": [
-    "mayonnaise",
-    "mustard",
-    "ketchup",
-    "relish",
-    "hot sauce",
-    "ranch dressing"
-  ]
-}
+const ingredients = [
+  { type: "bread", items: ["white", "wheat", "sourdough", "rye", "multigrain"] },
+  { type: "meat", items: ["turkey", "ham", "roast beef", "chicken", "bacon", "salami"] },
+  { type: "cheese", items: ["cheddar", "swiss", "provolone", "mozzarella", "pepper jack", "Muenster"] },
+  { type: "veggies", items: ["lettuce", "tomato", "onion", "cucumber", "bell pepper", "spinach", "avocado"] },
+  { type: "condiments", items: ["mayonnaise", "mustard", "ketchup", "relish", "hot sauce", "ranch dressing"] }
+];
 ```
 
 Things such as "Bread", "Cheese", "Condiments" are all Ingredient Types. Things like "Cheddar", "Salami", "Ketchup" are the ingredients.
