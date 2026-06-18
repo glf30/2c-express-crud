@@ -110,8 +110,6 @@ Next, let's set up some middleware that allows our API to receive JSON and accep
 app.use(express.json());
 // Colorizes status codes
 app.use(logger("dev"));
-// Allows us to parse form data
-app.use(express.urlencoded({ extended: false }));
 ```
 
 There is no database yet, so we will be testing things with this local set of data. Let's write it in:
