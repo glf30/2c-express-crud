@@ -12,28 +12,6 @@
 
 ---
 
-In this section of the lesson, we will be learning how to interact with data through a server.
-
-Of course before we get started, we have to initialize the application:
-
-0. A) In terminal, initialize the project
-
-```
-npm init -y
-```
-
-Also install the necessary modules:
-
-0. B) In terminal, install the express module and morgan module
-
-```
-npm install express morgan
-```
-
-## What is Morgan
-
-Morgan is a Middleware that helps Express by reading requests from the client, and making things such as the Status Code easier to read in the terminal.
-
 ## What is Middleware
 
 In Express, Middleware functions are functions that handle requests and responses in the app’s processing pipeline. They receive the req (request), res (response), and a next function to pass control to the next middleware.
@@ -74,6 +52,30 @@ This block of code is something we are familiar with. It handles the response to
 
 - Run command `node middleware.js` and visit `localhost:3000/` to demonstrate this. If you refresh the page, you will notice that the random number is random every time, which demonstrates that the first 2 blocks of code are ready to be run once per request to `localhost:3000/`.
 - Press `ctrl + c` to shut down the server.
+
+---
+
+In this section of the lesson, we will be learning how to interact with data through a server.
+
+Of course before we get started, we have to initialize the application:
+
+0. A) In terminal, initialize the project
+
+```
+npm init -y
+```
+
+Also install the necessary modules:
+
+0. B) In terminal, install the express module and morgan module
+
+```
+npm install express morgan
+```
+
+## What is Morgan
+
+Morgan is a Middleware that helps Express by reading requests from the client, and making things such as the Status Code easier to read in the terminal.
 
 ## What is CRUD
 
