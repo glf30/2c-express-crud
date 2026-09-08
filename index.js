@@ -32,7 +32,7 @@
 */
 
 /*
-    7. Handle patch requests to localhost:3000/pokemons/:name
+    7. Handle put requests to localhost:3000/pokemons/:name
 */
 
 /*
