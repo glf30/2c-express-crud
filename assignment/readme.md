@@ -31,7 +31,7 @@ Your task is to create a server with routes to perform the following actions:
 - `R`ead all available ingredients for all ingredient types
 - `R`ead all available ingredients for ONE ingredient type
 - `C`reate a new ingredient
-- `U`pdate the ingredients list for one ingredient type, by this we mean add new ingredients to an existing array)
+- `U`pdate the ingredients list for one ingredient type (by this we mean add new ingredients to an existing array)
 - `D`elete an entire ingredient type, clearing that entire type as well as its associated array. 
 Make sure you use Morgan for logging!
 
